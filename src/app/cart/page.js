@@ -406,7 +406,9 @@ const handlePlaceOrder = async () => {
         <div className="bg-white rounded-lg shadow-md p-8 max-w-md text-center">
           <ShoppingCart className="w-16 h-16 mx-auto mb-4 text-gray-400" />
           <h2 className="text-2xl font-bold text-gray-900 mb-2">Your Cart is Empty</h2>
-          <p className="text-gray-600 mb-6">Looks like you haven't added any items to your cart yet.</p>
+   
+          <p className="text-gray-600 mb-6">Looks like you haven&apos;t added any items to your cart yet.</p>
+
           <button
             onClick={() => window.history.back()}
             className="bg-amber-600 text-white px-6 py-3 rounded-lg hover:bg-amber-700 transition-colors"

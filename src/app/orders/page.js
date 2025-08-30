@@ -245,7 +245,7 @@ const OrderPage = () => {
           <div className="text-center py-12">
             <Package className="w-12 h-12 text-gray-400 mx-auto mb-4" />
             <h3 className="text-lg font-semibold text-gray-900 mb-2">No orders found</h3>
-            <p className="text-gray-600">You haven't placed any orders yet.</p>
+           <p className="text-gray-600">You haven&apos;t placed any orders yet.</p>
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
