@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowLeft, Package, Calendar, MapPin, Phone, User } from 'lucide-react';
 import { fetchWithAuth } from '../lib/fetchWithAuth';
+import AuthGuard from '@/Com/AuthGuard';
 
 const OrderPage = () => {
   const [orders, setOrders] = useState([]);
@@ -234,6 +235,7 @@ const OrderPage = () => {
 
   // ✅ Orders List Page
   return (
+     <AuthGuard>
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-6xl mx-auto p-6">
         <div className="mb-6">
@@ -299,6 +301,7 @@ const OrderPage = () => {
         )}
       </div>
     </div>
+    </AuthGuard>
   );
 };
 

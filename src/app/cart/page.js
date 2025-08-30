@@ -9,6 +9,7 @@ import {
   clearCart,
   updateItemQuantity,
 } from "../store/cartSlice";  // ✅ your redux actions
+import AuthGuard from '@/Com/AuthGuard';
 
 const EcommerceCheckout = () => {
   // Cart state - Initialize empty, will load from API/localStorage
@@ -421,6 +422,7 @@ const handlePlaceOrder = async () => {
   }
 
   return (
+    <AuthGuard>
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="container mx-auto px-4 max-w-6xl">
         {/* Progress Steps */}
@@ -796,6 +798,7 @@ const handlePlaceOrder = async () => {
         )}
       </div>
     </div>
+    </AuthGuard>
   );
 };
 
