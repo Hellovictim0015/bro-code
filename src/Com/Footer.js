@@ -7,10 +7,11 @@ function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <h3 className="text-lg font-semibold mb-4">🌳 WoodenStreet</h3>
-              <p className="text-gray-300 text-sm mb-4">
-                India's leading online furniture store offering premium wooden furniture
-                at affordable prices since 2015.
-              </p>
+             <p className="text-gray-300 text-sm mb-4">
+-                India s leading online furniture store offering premium wooden furniture
++                India&apos;s leading online furniture store offering premium wooden furniture
+                 at affordable prices since 2015.
+               </p>
               <div className="flex space-x-4">
                 <span className="text-2xl cursor-pointer hover:text-amber-400">📘</span>
                 <span className="text-2xl cursor-pointer hover:text-amber-400">📷</span>
