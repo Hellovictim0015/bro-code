@@ -7,7 +7,7 @@ import Footer from '@/Com/Footer';
 import HomeProduct from '@/Com/HomeProduct';
 import Hero from '@/Com/Hero';
 
-const Home = () => {
+const HomePage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
 
@@ -181,4 +181,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
