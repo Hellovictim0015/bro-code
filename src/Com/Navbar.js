@@ -135,7 +135,7 @@ function Navbar() {
           <div className="container mx-auto flex items-center justify-center text-sm font-medium">
             <Zap size={16} className="mr-2 animate-pulse" />
             <span className="hidden sm:inline">🔥 Summer Sale: Up to 70% OFF on All Furniture | </span>
-            <span className="font-bold ml-1">Free Delivery Above ₹999</span>
+            <span className="font-bold ml-1">Free Delivery Above ₹1000</span>
             <Bell size={16} className="ml-2 animate-bounce" />
           </div>
         </div>
