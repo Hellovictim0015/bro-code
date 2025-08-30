@@ -27,25 +27,24 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: 'Mr. Manish Gadhvi',
-      location: 'Bengaluru',
-      text: 'CEO of Funds India in B2B Design, was looking for office furniture that doesn\'t give the traditional boring vibes. Got the desired fun-filled, vibrant office furniture.',
-      image: '/api/placeholder/80/80'
+      name: "Mr. Manish Gadhvi",
+      location: "Bengaluru",
+      text: "CEO of Funds India in B2B Design, was looking for office furniture that doesn't give the traditional boring vibes. Got the desired fun-filled, vibrant office furniture.",
+      image: "/api/placeholder/80/80"
     },
     {
-      name: 'Ms. Aarti Rajendra Shetty',
-      location: 'Bengaluru',
-      text: 'Furnished the model flat of \'Disha Pursuit of Elements\'. From living room to master bedroom, every room was decorated with exclusive furniture collection.',
-      image: '/api/placeholder/80/80'
+      name: "Ms. Aarti Rajendra Shetty",
+      location: "Bengaluru",
+      text: "Furnished the model flat of 'Disha Pursuit of Elements'. From living room to master bedroom, every room was decorated with exclusive furniture collection.",
+      image: "/api/placeholder/80/80"
     },
     {
-      name: 'Mr. Sudheer KK and Sreedevi Madhavan',
-      location: 'Bengaluru',
-      text: 'After visiting our showroom, liked our collection in just one glance. They were delighted with their entire shopping experience.',
-      image: '/api/placeholder/80/80'
+      name: "Mr. Sudheer KK and Sreedevi Madhavan",
+      location: "Bengaluru",
+      text: "After visiting our showroom, liked our collection in just one glance. They were delighted with their entire shopping experience.",
+      image: "/api/placeholder/80/80"
     }
   ];
-
 
 
   return (
@@ -136,7 +135,7 @@ const Home = () => {
                       <p className="text-sm text-gray-600">{testimonial.location}</p>
                     </div>
                   </div>
-                  <p className="text-gray-700 text-sm leading-relaxed">"{testimonial.text}"</p>
+                  <p className="text-gray-700 text-sm leading-relaxed">{testimonial.text}</p>
                   <div className="flex text-yellow-400 mt-4">
                     {'★'.repeat(5)}
                   </div>
