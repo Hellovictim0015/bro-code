@@ -16,6 +16,8 @@ const nextConfig = {
         hostname: "peoplehealthssolutions.s3.eu-north-1.amazonaws.com",
       },
     ],
+
+    
   },
 };
 
